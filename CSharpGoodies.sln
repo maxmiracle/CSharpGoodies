@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamGoodies", "StreamGoodies\StreamGoodies.csproj", "{36A11F0C-F3A2-4F4A-B943-B5789A57FE37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamGoodiesTest", "StreamGoodiesTest\StreamGoodiesTest.csproj", "{6AF2E8F9-7D5A-4BCA-829E-FB855676077A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36A11F0C-F3A2-4F4A-B943-B5789A57FE37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A11F0C-F3A2-4F4A-B943-B5789A57FE37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A11F0C-F3A2-4F4A-B943-B5789A57FE37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A11F0C-F3A2-4F4A-B943-B5789A57FE37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF2E8F9-7D5A-4BCA-829E-FB855676077A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF2E8F9-7D5A-4BCA-829E-FB855676077A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF2E8F9-7D5A-4BCA-829E-FB855676077A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF2E8F9-7D5A-4BCA-829E-FB855676077A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA48887D-0B74-4B25-8006-6DCBA3CE0C5E}
+	EndGlobalSection
+EndGlobal
