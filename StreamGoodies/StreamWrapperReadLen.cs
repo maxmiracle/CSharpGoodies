@@ -40,9 +40,13 @@ namespace StreamGoodies
 
         public override int Read(byte[] buffer, int offset, int count)
         {
+            int readBytes = 0;
             if (_position + count > _length) count = (int)(_length - _position);
-            var readBytes = _stream.Read(buffer, offset, count);
-            _position += readBytes;
+            if (count > 0)
+            {
+                readBytes = _stream.Read(buffer, offset, count);
+                _position += readBytes;
+            }
             return readBytes;
         }
 
